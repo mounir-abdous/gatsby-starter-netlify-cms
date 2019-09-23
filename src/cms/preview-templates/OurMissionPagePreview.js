@@ -5,6 +5,7 @@ import { OurMissionPageTemplate } from '../../templates/our-mission-page'
 const OurMissionPagePreview = ({ entry, widgetFor }) => (
   <OurMissionPageTemplate
     title={entry.getIn(['data', 'title'])}
+    description={entry.getIn(['data', 'description'])}
     content={widgetFor('body')}
   />
 )

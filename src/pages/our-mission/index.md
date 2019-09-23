@@ -2,6 +2,7 @@
 templateKey: 'our-mission-page'
 path: /our-mission
 title: Our Mission
+description: testing testing desc
 ---
 ### Shade-grown coffee
 BLABALBLABLALBA
